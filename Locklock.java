@@ -5,10 +5,10 @@ class  Locklock
 {
 	public static void main(String[] args) 
 	{
-		File file =new File("C:\\Users\\82736\\OneDrive - ����й���Ů����ѧ\\Desktop\\�˺�����.txt");
-		String str1[] = new String[100];
-		String str2[] = new String[100];
-		char key = '1';
+		File file =new File("");                                     //文件位置
+		String str1[] = new String[100];                             //读取文档字符串，文件长度不超过100行
+		String str2[] = new String[100];                             //加密文档字符串
+		char key = '1';						     //加密密钥
 		try
 		{
 			FileReader inOne = new FileReader(file);
